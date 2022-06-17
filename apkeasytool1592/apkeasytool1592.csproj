@@ -1,0 +1,152 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{98C64295-D7C4-432E-99BE-ED00994D7E18}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>apkeasytool1592</RootNamespace>
+    <AssemblyName>apkeasytool1592</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{60DC8134-EBA5-43B8-BCC9-BB4BC16C2548};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <ApplicationIcon>apkeasytool1592.ico</ApplicationIcon>
+    <StartupObject>A.A</StartupObject>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.WindowsAPICodePack.Shell" />
+    <Reference Include="PresentationFramework" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <AppDesigner Include="Properties\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="-Module-.cs" />
+    <Compile Include="-PrivateImplementationDetails-{772A5486-\68C3D6DC-EBE1-4CDA-823B-2E9F977A4AA7.cs" />
+    <Compile Include="APKEasyTool\AIF.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="APKEasyTool\AIF.Designer.cs">
+      <DependentUpon>AIF.cs</DependentUpon>
+    </Compile>
+    <Compile Include="APKEasyTool\AMF.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="APKEasyTool\AMF.Designer.cs">
+      <DependentUpon>AMF.cs</DependentUpon>
+    </Compile>
+    <Compile Include="APKEasyTool\APKEasyTool.cs" />
+    <Compile Include="APKEasyTool\CMD.cs" />
+    <Compile Include="APKEasyTool\Config\Config.cs" />
+    <Compile Include="APKEasyTool\DD.cs" />
+    <Compile Include="APKEasyTool\ExtensionMethods.cs" />
+    <Compile Include="APKEasyTool\Forms\Dev.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="APKEasyTool\Forms\Dev.Designer.cs">
+      <DependentUpon>Dev.cs</DependentUpon>
+    </Compile>
+    <Compile Include="APKEasyTool\Forms\Log.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="APKEasyTool\Forms\Log.Designer.cs">
+      <DependentUpon>Log.cs</DependentUpon>
+    </Compile>
+    <Compile Include="APKEasyTool\JC.cs" />
+    <Compile Include="APKEasyTool\JList.cs" />
+    <Compile Include="APKEasyTool\KP.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="APKEasyTool\KP.Designer.cs">
+      <DependentUpon>KP.cs</DependentUpon>
+    </Compile>
+    <Compile Include="APKEasyTool\Lang.cs" />
+    <Compile Include="APKEasyTool\MF.cs" />
+    <Compile Include="APKEasyTool\S.cs" />
+    <Compile Include="APKEasyTool\TFW.cs" />
+    <Compile Include="APKEasyTool\TL.cs" />
+    <Compile Include="APKEasyTool\TMain.cs" />
+    <Compile Include="APKEasyTool\TO.cs" />
+    <Compile Include="APKEasyTool\TSma.cs" />
+    <Compile Include="APKEasyTool\U.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="APKEasyTool\U.Designer.cs">
+      <DependentUpon>U.cs</DependentUpon>
+    </Compile>
+    <Compile Include="APKEasyTool\Updates.cs" />
+    <Compile Include="APKEasyTool\Utils\DirectoryUtils.cs" />
+    <Compile Include="APKEasyTool\Vars.cs" />
+    <Compile Include="APKEasyTool\WW.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="APKEasyTool\WW.Designer.cs">
+      <DependentUpon>WW.cs</DependentUpon>
+    </Compile>
+    <Compile Include="APKEasyTool\XMLSave.cs" />
+    <Compile Include="A\a.2.cs" />
+    <Compile Include="A\A.cs" />
+    <Compile Include="A\b.2.cs" />
+    <Compile Include="A\B.cs" />
+    <Compile Include="A\B.Designer.cs">
+      <DependentUpon>B.settings</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="A\c.2.cs" />
+    <Compile Include="A\C.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="APKEasyTool\AIF.resources" />
+    <EmbeddedResource Include="APKEasyTool\AMF.resources" />
+    <EmbeddedResource Include="APKEasyTool\Forms\Dev.resources" />
+    <EmbeddedResource Include="APKEasyTool\Forms\Log.resources" />
+    <EmbeddedResource Include="APKEasyTool\KP.resources" />
+    <EmbeddedResource Include="APKEasyTool\U.resources" />
+    <EmbeddedResource Include="APKEasyTool\WW.resources" />
+    <EmbeddedResource Include="A\a.resources" />
+    <EmbeddedResource Include="costura.costura.dll.compressed" />
+    <EmbeddedResource Include="costura.costura.pdb.compressed" />
+    <EmbeddedResource Include="costura.metadata" />
+    <EmbeddedResource Include="costura.microsoft.windowsapicodepack.dll.compressed" />
+    <EmbeddedResource Include="costura.microsoft.windowsapicodepack.shell.dll.compressed" />
+    <EmbeddedResource Include="costura.system.buffers.dll.compressed" />
+    <EmbeddedResource Include="costura.system.diagnostics.diagnosticsource.dll.compressed" />
+    <EmbeddedResource Include="costura.system.memory.dll.compressed" />
+    <EmbeddedResource Include="costura.system.numerics.vectors.dll.compressed" />
+    <EmbeddedResource Include="costura.system.runtime.compilerservices.unsafe.dll.compressed" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="A\B.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>B.Designer.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

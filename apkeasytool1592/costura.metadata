@@ -1,0 +1,9 @@
+costura.costura.dll.compressed|5.1.0.0|Costura, Version=5.1.0.0, Culture=neutral, PublicKeyToken=null|Costura.dll|A191D5AB442AE95DD119D78CCEB75548FAB44EFF|4608
+costura.costura.pdb.compressed|||Costura.pdb|FAD3FE00EA32D2782452A4095C890414BA615C01|2544
+costura.microsoft.windowsapicodepack.dll.compressed|1.1.4.0|Microsoft.WindowsAPICodePack, Version=1.1.4.0, Culture=neutral, PublicKeyToken=8985beaab7ea3f04|Microsoft.WindowsAPICodePack.dll|35FC938EACC89068455E0E7A321E351FE5BAFE8A|103424
+costura.microsoft.windowsapicodepack.shell.dll.compressed|1.1.4.0|Microsoft.WindowsAPICodePack.Shell, Version=1.1.4.0, Culture=neutral, PublicKeyToken=8985beaab7ea3f04|Microsoft.WindowsAPICodePack.Shell.dll|38912B86ABA42965ECB3A673477FB0F5D5EF3B33|512512
+costura.system.buffers.dll.compressed|4.0.3.0|System.Buffers, Version=4.0.3.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51|System.Buffers.dll|2F410A0396BC148ED533AD49B6415FB58DD4D641|20856
+costura.system.diagnostics.diagnosticsource.dll.compressed|5.0.0.1|System.Diagnostics.DiagnosticSource, Version=5.0.0.1, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51|System.Diagnostics.DiagnosticSource.dll|85078D8F2C8A9051F3BE278BF13DB8E4E6C598AB|98184
+costura.system.memory.dll.compressed|4.0.1.1|System.Memory, Version=4.0.1.1, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51|System.Memory.dll|19BF79600B716523B5317B9A7B68760AE5D55741|141184
+costura.system.numerics.vectors.dll.compressed|4.1.4.0|System.Numerics.Vectors, Version=4.1.4.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a|System.Numerics.Vectors.dll|3D216458740AD5CB05BC5F7C3491CDE44A1E5DF0|115856
+costura.system.runtime.compilerservices.unsafe.dll.compressed|5.0.0.0|System.Runtime.CompilerServices.Unsafe, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a|System.Runtime.CompilerServices.Unsafe.dll|BAB44612721C3DC91AC3D9DFCA7C961A3A511508|16768
